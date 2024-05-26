@@ -1,0 +1,198 @@
+/*------------- TRACKING FORM  & FORM  ------------------*/
+.screen-container {
+    transform: translate(50%, -50%);
+    opacity: 1;
+  }
+  
+  .screen-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cross-container {
+    cursor: pointer;
+  }
+  
+  .sign-in-image {
+    width: 100px;
+  }
+  
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .wrapper {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .field-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .left-positioned {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .field-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .subtext {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .main-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .flex-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .whatsapp-text {
+    margin-right: 10px;
+  }
+  
+  .button-wrapper {
+    width: 100%;
+    padding: 10px;
+    background-color: #ccc;
+    color: #000042;
+    cursor: not-allowed;
+  }
+  
+  .button-wrapper:enabled {
+    background-color: #000042;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .spacer {
+    height: 20px;
+  }
+  
+  .info-text {
+    font-size: 14px;
+  }
+  
+  .edit-btn {
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+  }
+
+  /*--------------------------------------------------------------------------------*/
+
+  .cartWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mainSection {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .rightWrapper {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .offerBanner {
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .cartHeading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .cartCardWrapper {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .itemImage {
+    width: 100px;
+    height: auto;
+  }
+  
+  .itemDetails {
+    padding: 10px;
+  }
+  
+  .itemTitle {
+    font-size: 18px;
+  }
+  
+  .itemPrice {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .billDetails {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .billItem {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .finalPrice {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px;
+    background-color: #11DAAC;
+    color: #000042;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .actionButton {
+    background-color: #000042;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  

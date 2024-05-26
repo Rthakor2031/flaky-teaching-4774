@@ -4,6 +4,10 @@ import Content from './Components/Content'
 import Product from './Components/product'
 import Footer from './Components/Footer'
 import Description from './Pages/Description'
+import TrackingForm from './Pages/TrackingForm'
+import Discription from './Pages/Description'
+
+
 
 function App() {
   return (
@@ -13,7 +17,8 @@ function App() {
       <Product/>
       <Description/>
       <Footer/>
-
+      <TrackingForm/>
+            <Discription/>
       <h3>
         Tracking page,<br />
         Authenication form , <br />
