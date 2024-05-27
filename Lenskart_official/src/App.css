@@ -1,0 +1,156 @@
+.Top-head{
+    /* border: 2px solid red; */
+    height:80px;
+    min-width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.Top-head .input{
+    height:35px;
+    width:400px;
+    background-color: rgb(228, 232, 235);
+    padding-left:15px;
+    border-radius:5px;
+    border: 1px solid rgb(21, 22, 22);
+}
+.Tracking{
+    display: flex;
+}
+.Tracking h4{
+    padding:10px;   
+}
+.img-number{
+    display: flex;
+    align-items: center;
+}
+
+/* Tracking form */
+.outline{
+    border: 1px solid black;
+    height:550px;
+    width:450px;
+    border-radius:20px;
+    margin: 20px auto;
+}
+.outline img{
+    top: 0%;
+    width:100%;
+    border-radius:20px;
+}
+form{
+    text-align: center;
+}
+form input{
+    height:30px;
+    width:350px;
+    padding-left:10px;
+    border-radius:10px;
+    border:1px solid black;
+}
+form button{
+    margin-top:15px;
+    padding:8px 130px;
+    font-size:20px;
+    border-radius:25px;
+    border:1px solid black;
+}
+/* .product_card{
+    box-shadow:0px 3px 5px rgba(0,0,0,0.45);
+    border:2px solid black;
+} */
+
+/* productpage css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media part */
+
+/* Small devices (phones, less than 600px) */
+@media (max-width: 599px) {
+    .Top-head {
+        height: 60px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .input {
+        min-width:95%;
+        min-height:30px;
+        margin-bottom:5px;
+    }
+
+    .Tracking {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .img-number h4 a{
+        float: left;
+    }
+
+}
+
+/* Medium devices (tablets, 600px to 767px) */
+@media (min-width: 600px) and (max-width: 767px) {
+    .Top-head {
+        height: 70px;
+    }
+
+    .input {
+        width: 300px;
+    }
+
+    .Tracking h4 {
+        padding: 8px;
+    }
+}
+
+/* Large devices (desktops, 768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .Top-head {
+        height: 80px;
+    }
+
+    .input {
+        width: 350px;
+    }
+
+    .Tracking h4 {
+        padding: 9px;
+    }
+}
+
+/* Extra large devices (large desktops, 1024px and up) */
+@media (min-width: 1024px) {
+    .Top-head {
+        height: 80px;
+    }
+
+    .input {
+        width: 400px;
+    }
+
+    .Tracking h4 {
+        padding: 10px;
+    }
+}
